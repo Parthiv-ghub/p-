@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Parthiv Pal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container" style="max-width: 800px; margin: 0 auto; padding: 40px 20px;">
+        <section class="contact-section">
+            <h1 style="text-align: center; margin-bottom: 10px;">Get In Touch</h1>
+            <p style="text-align: center; color: #666; margin-bottom: 40px;">
+                Have an internship opportunity, research project, or a lab-related query? Drop me a message or reach out directly!
+            </p>
+            
+            <div class="contact-layout" style="display: flex; gap: 40px; flex-wrap: wrap;">
+                
+                <!-- Direct Contact Information Details -->
+                <div class="contact-info" style="flex: 1; min-width: 250px;">
+                    <h3 style="margin-bottom: 15px;">Direct Details</h3>
+                    
+                    <p style="margin-bottom: 15px;">
+                        <strong>Email:</strong><br>
+                        <a href="mailto:parthivpal43@gmail.com" style="color: #007BFF; text-decoration: none;">parthivpal43@gmail.com</a>
+                    </p>
+                    
+                    <p style="margin-bottom: 15px;">
+                        <strong>Phone:</strong><br>
+                        <a href="tel:+917234567890" style="color: #007BFF; text-decoration: none;">+91 7234567890</a>
+                    </p>
+                    
+                    <p style="margin-bottom: 15px; color: #555;">
+                        <strong>Current Status:</strong><br>
+                        Open to Research Assistantships, Industrial Internships, and Project Collaborations.
+                    </p>
+                </div>
+
+                <!-- Interactive Message Space / Form Area -->
+                <div class="contact-form-container" style="flex: 1.5; min-width: 300px; border: 1px solid #ddd; padding: 25px; border-radius: 8px; background-color: #fafafa;">
+                    <h3 style="margin-bottom: 20px;">Send a Message</h3>
+                    
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group" style="margin-bottom: 15px;">
+                            <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                        </div>
+                        
+                        <div class="form-group" style="margin-bottom: 15px;">
+                            <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                        </div>
+                        
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Type your inquiry or collaboration proposal here..." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical;"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn" style="width: 100%; padding: 12px; font-size: 1rem; cursor: pointer;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyPortfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
